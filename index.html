@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bootstrap-5.3.5-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.5-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator bg-dark">
+          <input type="text" class="form-control calculator-display mb-3" id="display" disabled />
+    
+          <div class="row g-2 calculator-buttons">
+
+            <!-- Row 1 -->
+
+            <div class="col-3"><button class="btn btn-warning w-100">*</button></div>
+            <div class="col-3"><button class="btn btn-warning w-100">/</button></div>
+            <div class="col-3"><button class="btn btn-warning w-100">-</button></div>
+            <div class="col-3"><button class="btn btn-warning w-100">+</button></div>
+    
+            <!-- Row 2 -->
+            <div class="col-3"><button class="btn btn-light w-100">9</button></div>
+            <div class="col-3"><button class="btn btn-light w-100">8</button></div>
+            <div class="col-3"><button class="btn btn-light w-100">7</button></div>
+            <div class="col-3"><button class="btn btn-light w-100">6</button></div>
+    
+            <!-- Row 3 -->
+            <div class="col-3"><button class="btn btn-light w-100">5</button></div>
+            <div class="col-3"><button class="btn btn-light w-100">4</button></div>
+            <div class="col-3"><button class="btn btn-light w-100">3</button></div>
+            <div class="col-3"><button class="btn btn-light w-100">2</button></div>
+    
+            <!-- Row 4 -->
+            <div class="col-3"><button class="btn btn-light w-100">1</button></div>
+            <div class="col-3"><button class="btn btn-light w-100">0</button></div>
+            <div class="col-3"><button class="btn btn-light w-100">.</button></div>
+            <div class="col-3"><button class="btn btn-success w-100">=</button></div>
+    
+            <!-- Clear button -->
+            <div class="col-3 mt-2"><button class="btn btn-danger w-100" id="clear">C</button></div>
+          </div>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
